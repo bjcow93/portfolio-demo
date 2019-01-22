@@ -2079,6 +2079,9 @@ input, select, textarea {
 		padding: 5em 0 5em 0;
 		margin: 0;
 		background-size: 125% auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 
 		#banner .button {
@@ -2098,6 +2101,7 @@ input, select, textarea {
 
 		#banner p {
 			margin: 0;
+			width: 70%;
 		}
 
 		#banner footer {
